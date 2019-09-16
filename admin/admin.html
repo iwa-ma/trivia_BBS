@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="bbs/common/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="bbs/common/js/jquery.cookie.js"></script>
+  <meta http-equiv="Content-type" content="text/html">
+<title>トリビアくん管理者用ページ</title>
+</head>
+<body>
+  <a href="/bbs/db"><p>管理者用(db版）にアクセス</p></a>
+  <a href="/bbs/json"><p>管理者用(json版）にアクセス</p></a>
+<p class="admin_del">管理者用クッキー削除</p>
+</body>
+</html>
+<script>
+$(function(){
+$('.admin_del').click(function() {
+
+  if($.cookie("Admin")){
+   if(!confirm('本当に削除しますか？')){
+       return false;
+   }else{
+      $.cookie("Admin","",{path:"/",expires:-1});
+   }
+  }else{
+    alert("管理者クッキーがありませんよ");
+  }
+});
+
+});
+</script>
