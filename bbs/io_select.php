@@ -15,8 +15,6 @@ require(dirname(__FILE__).'/base.php');
 <body>
   <div id="user-container">
     <div id="user_title">利用者用メニュー</div>
-<!--     <div id="user_db"><a href="/bbs/db">利用者用(db版）にアクセス</a></div>
-    <div id="user_json"><a href="/bbs/json">利用者用(json版）にアクセス</a></div> -->
     <div id="user_db"><a href="/bbs/index.php?mode=db">利用者用(db版）にアクセス</a></div>
     <div id="user_json"><a href="/bbs/index.php?mode=json">利用者用(json版）にアクセス</a></div>
   </div>
