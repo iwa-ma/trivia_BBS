@@ -19,7 +19,7 @@
   3.trivia_BBS/bbs/DB_config.phpに手順2でリストアしたDBサーバーのホスト名またはIPアドレス、  
     ユーザー名、パスワード、DB名を入力
 
-  4.http://Webサーバー名/bbs/io_select.phpにアクセスで、DBまたはJSON選択、  
+  4.`http://Webサーバー名/bbs/io_select.php`にアクセスで、DBまたはJSON選択、  
   クリックで各Topページに遷移します。
 
   ![DBorJSONセレクト画面](./readme_image/io_select.jpg)  
