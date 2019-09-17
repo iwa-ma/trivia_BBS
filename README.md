@@ -15,12 +15,25 @@
   MySQL   5.7.25
 
 ## 動作手順
-  1.クローンを取得してApacheのドキュメントルートに配置
-  2.db_dmp/tribia_dev.sqlをMySQLのDBにリストアして、テーブルを作成
-  3.trivia_BBS/bbs/DB_config.phpに手順2でリストアしたDBサーバーのホスト名またはIPアドレス、
+  1.クローンを取得してApacheのドキュメントルートに配置  
+  2.db_dmp/tribia_dev.sqlをMySQLのDBにリストアして、テーブルを作成  
+  3.trivia_BBS/bbs/DB_config.phpに手順2でリストアしたDBサーバーのホスト名またはIPアドレス、  
     ユーザー名、パスワード、DB名を入力
 
-  4.http://Webサーバー名/bbs/io_select.phpにアクセスで、DBまたはJSON選択、
-  　クリックで各Topページに遷移します。
+  4.http://Webサーバー名/bbs/io_select.phpにアクセスで、DBまたはJSON選択、  
+  クリックで各Topページに遷移します。
 
-  ![DBorJSONセレクト画面](./readme_image/io_select.jpg)
+  ![DBorJSONセレクト画面](./readme_image/io_select.jpg)  
+
+###Top画面(PC)  
+  ![DBorJSONセレクト画面](./readme_image/bbs_top_pc.jpg)  
+###Top画面(SP)
+  ![DBorJSONセレクト画面](./readme_image/bbs_top_sp.jpg)  
+###投稿画面(PC)  
+  ![DBorJSONセレクト画面](./readme_image/bbs_input_pc.jpg)  
+###投稿画面(SP)
+  ![DBorJSONセレクト画面](./readme_image/bbs_input_sp.jpg)  
+###コメント投稿画面(PC)  
+  ![DBorJSONセレクト画面](./readme_image/bbs_comment_pc.jpg)  
+###コメント投稿画面(SP)
+  ![DBorJSONセレクト画面](./readme_image/bbs_comment_sp.jpg)  
