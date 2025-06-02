@@ -14,12 +14,14 @@
   MySQL   5.7.25  
 
 ## 動作手順
-  1.クローンを取得してApacheのドキュメントルートに配置  
+  1.クローンを取得してApacheのドキュメントルートに配置  (下記画面はXAMPPのデフォルトに配置した場合)
+  ![image](https://github.com/user-attachments/assets/bfdb5f2f-54b9-4cc1-a3f5-5baf3ef83d4e)
+　![image](https://github.com/user-attachments/assets/26f8f2ba-ab9b-451c-b803-a1612b333b87)
+
   2.db_dmp/tribia_dev.sqlをMySQLのDBにリストアして、テーブルを作成  
   3.trivia_BBS/bbs/DB_config.phpに手順2でリストアしたDBサーバーのホスト名またはIPアドレス、  
     ユーザー名、パスワード、DB名を入力
-
-  4.`http://Webサーバー名/bbs/io_select.php`にアクセスで、DBまたはJSON選択、  
+  4.`http://localhost/TriviaBBS/bbs/io_select.php`にアクセスで、DBまたはJSON選択、  
   クリックで各Topページに遷移します。
 
   ![DBorJSONセレクト画面](./readme_image/io_select.jpg)  
