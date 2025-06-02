@@ -14,7 +14,7 @@ require('base.php');
 <html lang="ja">
 <head>
   <link rel="stylesheet" type="text/css" href="common/css/jquery-ui.css">
-  <script type="text/javascript" src="common/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="common/js/jquery-3.5.0.min.js"></script>
   <script type="text/javascript" src="common/js/jquery.validationEngine-ja.js"></script>
   <script type="text/javascript" src="common/js/jquery.validationEngine.js"></script>
   <script type="text/javascript" src="common/js/jquery-ui.js"></script>
