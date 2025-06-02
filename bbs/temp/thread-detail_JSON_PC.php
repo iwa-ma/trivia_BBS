@@ -35,7 +35,7 @@
                   maxlength="30" value="" placeholder="30文字以内で入力">
                   <input type="submit"
                      value="削除" cat_name="<?php echo $cat_name;?>"
-                      thr_no="<?php echo $thr_no;?>" pos_no="<?php echo $val['pos_id'];?>"  admin="<?php if($_COOKIE['Admin']){echo "true";}else{echo "false";} ?>" class="password_del">
+                      thr_no="<?php echo $thr_no;?>" pos_no="<?php echo $val['pos_id'];?>"  admin="<?php if(isset($_COOKIE['Admin']) && $_COOKIE['Admin']){echo "true";}else{echo "false";} ?>" class="password_del">
                     <input type="reset" value="リセット">
                   </form>
                   <span class="good_count" id="good_<?php echo cat_no_get($cat_name);?>_<?php echo $thr_no;?>_<?php echo $val['pos_id'];?>">
@@ -73,7 +73,7 @@
                     thr_no="<?php echo $thr_no;?>"  pos_no=<?php echo $val['pos_id'];?> 
                     maxlength="30" value="" placeholder="30文字以内で入力">
                     <input type="submit"  value="削除" cat_name="<?php echo $cat_name;?>" 
-                      thr_no="<?php echo $thr_no;?>" pos_no="<?php echo $val['pos_id'];?>"  admin="<?php if($_COOKIE['Admin']){echo "true";}else{echo "false";} ?>" class="password_del">
+                      thr_no="<?php echo $thr_no;?>" pos_no="<?php echo $val['pos_id'];?>"  admin="<?php if(isset($_COOKIE['Admin']) && $_COOKIE['Admin']){echo "true";}else{echo "false";} ?>" class="password_del">
                     <input type="reset" value="リセット">
                   </form>
                   <span class="good_count" id="good_<?php echo cat_no_get($cat_name);?>_<?php echo $thr_no;?>_<?php echo $val['pos_id'];?>">
